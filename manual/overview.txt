@@ -27,8 +27,8 @@ Please be aware however, that PulseView currently only supports devices that can
 https://sigrok.org/wiki/Supported_hardware#Oscilloscopes[oscilloscope],
 a https://sigrok.org/wiki/Supported_hardware#Logic_analyzers[logic analyzer] or
 a https://sigrok.org/wiki/Supported_hardware#Mixed-signal_devices[mixed-signal device]. This
-means that multimeters in particular are currently only usable with either https://sigrok.org/wiki/Sigrok-cli[sigrok-cli]
-or https://sigrok.org/wiki/Sigrok-meter[sigrok-meter].
+means that multimeters in particular are currently only usable with either https://sigrok.org/wiki/Sigrok-cli[sigrok-cli],
+https://sigrok.org/wiki/SmuView[SmuView] or https://sigrok.org/wiki/Sigrok-meter[sigrok-meter].
 
 image::pv_after_startup.png[]
 
