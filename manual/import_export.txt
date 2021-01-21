@@ -19,10 +19,10 @@ module requires them.
 
 For example, the VCD import will ask you for these:
 
-* Compress idle periods: Compress idle periods longer than the specified value (default 0)
-* Downsampling factor: Downsample, i.e. divide the samplerate by the specified factor (default 1)
-* Number of logic channels: The number of (logic) channels in the data (default 0)
-* Skip samples until timestamp: Skip samples until the specified timestamp; < 0: Skip until first timestamp listed; 0: Don't skip (default -1)
+* Compress idle periods: Compress idle periods longer than the specified value (default `0`)
+* Downsampling factor: Downsample, i.e. divide the samplerate by the specified factor (default `1`)
+* Number of logic channels: The number of (logic) channels in the data (default `0`)
+* Skip samples until timestamp: Skip samples until the specified timestamp; < `0`: Skip until first timestamp listed; `0`: Don't skip (default `-1`)
 
 The detailed description of each item can also be seen when clicking on the help icon on the right
 or hovering your mouse over it. A click on _OK_ then loads the data from the selected file and you

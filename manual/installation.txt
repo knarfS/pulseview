@@ -26,7 +26,7 @@ odd to you, please download and install the latest nightly and check if the issu
 does, feel free to https://sigrok.org/bugzilla/[file a bug].
 
 No system files are changed, so if you decide that you no longer want to use PulseView, simply
-delete the AppImage. If you also want the stored settings gone, delete ~/.config/sigrok as well.
+delete the AppImage. If you also want the stored settings gone, delete `~/.config/sigrok/PulseView.conf` as well.
 --
 
 . Uninstall any sigrok packages from your package manager and build PulseView from source:
@@ -43,16 +43,16 @@ export LD_LIBRARY_PATH=~/sr/lib
 ~/sr/bin/pulseview
 
 No system files are changed, so if you decide that you no longer want to use PulseView, simply
-delete the ~/sr directory. If you also want the stored settings gone, delete ~/.config/sigrok
+delete the `~/sr` directory. If you also want the stored settings gone, delete `~/.config/sigrok/PulseView.conf`
 as well.
 --
 
 [WARNING]
 --
 If you don't install the PulseView distro packages (as is the case when using the AppImage or building
-from source), PulseView will not be able to access USB and serial port devices unless it's run as root.
-Since programs shouldn't be run as root unless absolutely necessary, we provide udev configuration files
-that allows PulseView access to those devices without being root.
+from source), PulseView will not be able to access USB and serial port devices unless it's run as `root`.
+Since programs shouldn't be run as `root` unless absolutely necessary, we provide udev configuration files
+that allows PulseView access to those devices without being `root`.
 
 Here's how you install them:
 [listing, subs="normal"]
@@ -97,4 +97,4 @@ does, feel free to https://sigrok.org/bugzilla/[file a bug].
 
 No system files are changed, so if you decide that you no longer want to use PulseView, simply
 delete the DMG file. If you also want the stored settings gone, delete
-~/Library/Preferences/pulseview.plist as well.
+`~/Library/Preferences/pulseview.plist` as well.

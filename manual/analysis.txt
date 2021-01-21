@@ -106,9 +106,9 @@ open, including the signal configuration and any protocol decoders you might
 have added. The next time you start it again, it'll be restored to its
 previous state.
 
-This metadata is also saved with every .sr file you save so that the next time
-you open the .sr file, your signal configurations, views and decoders are
-restored. These metadata files have the ending .pvs (PulseView Setup) and can
+This metadata is also saved with every `.sr` file you save so that the next time
+you open the `.sr` file, your signal configurations, views and decoders are
+restored. These metadata files have the ending `.pvs` (PulseView Setup) and can
 be edited in any text editor if you wish to change something manually.
 
 Additionally, you can save or load this metadata at any time using the

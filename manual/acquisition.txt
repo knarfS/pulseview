@@ -54,7 +54,7 @@ devices, such as ones that connect via serial port or Ethernet.
 [NOTE]
 To avoid having to manually enter the device configuration for a serial port or Ethernet
 device every time you want to use it and then having to scan for it, you can also use the
-command line parameter -d to have PulseView scan for it on startup.
+command line parameter `-d` to have PulseView scan for it on startup.
 
 You may then change the device configuration and/or start the data acquisition by clicking
 the "Run" button on the top left.
@@ -98,7 +98,7 @@ sample rates. If they persist, it's worth trying a different USB port as well.
 
 === Triggers
 
-The signal labels on the left side of the view (D0, D1 and so on in the picture above) allow you to
+The signal labels on the left side of the view (`D0`, `D1` and so on in the picture above) allow you to
 configure certain aspects of these signals. If the device supports it then the trigger that will be
 used for this signal will be among them.
 
@@ -131,4 +131,3 @@ on the dark gray bar and select "Ungroup".
 If you want to create a new group, select the signals you want to group by holding down CTRL
 and clicking on the signal labels. Once you have selected the ones you want to be grouped,
 right-click on one of the labels you selected and choose "Group".
-
