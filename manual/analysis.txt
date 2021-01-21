@@ -2,23 +2,23 @@
 
 Once you have acquired some measurement data, it's time to have a look and see what
 insights you can gain from it. Usually, the first step is to look at the data as a
-whole, achieved by clicking the _Zoom to Fit_ button:
+whole, achieved by clicking the btn:[Zoom-to-Fit] button:
 
 image::pv_analysis.png[]
 
-<1> Zoom-to-Fit button
-<2> Zoom in/zoom out buttons
+<1> btn:[Zoom-to-Fit] button
+<2> btn:[Zoom in] / btn:[Zoom out] buttons
 <3> Cursors
 <4> Time scale (used to set up and show markers, see below)
 
 If you have located an area of interest (maybe with the help of decoders, more about
-that later), you can zoom in on it using the _zoom in_/_zoom out_ buttons, using the
+that later), you can zoom in on it using the btn:[Zoom in] / btn:[Zoom out] buttons, using the
 scroll wheel of your mouse or the pinch/expand gestures on your touch panel.
 
 [NOTE]
-When a data capture is ongoing, the Zoom-to-Fit button stays active if you click it,
+When a data capture is ongoing, the btn:[Zoom-to-Fit] button stays active if you click it,
 meaning that PulseView automatically fits all data to the views until either the
-capture is finished or the Zoom-to-Fit button is clicked again.
+capture is finished or the btn:[Zoom-to-Fit] button is clicked again.
 If you want this feature but don't want to always have to click the button, you
 can enable the "Always Zoom-to-Fit" option in the settings.
 
@@ -28,7 +28,7 @@ Just looking at the signal data however is usually not sufficient. A lot of time
 you'll want to make sure that timings are honored and the bit times are like what
 you'd expect. To do so, you'll want to use cursors and markers.
 
-In the picture above, you can enable the cursor by clicking on the cursor button.
+In the picture above, you can enable the cursor by clicking on the btn:[cursor] button.
 You can move both of its boundaries around by clicking on the blue flags in the
 time scale area. The area between the two boundary lines shows the time distance,
 its inverse (i.e. the frequency) and/or the number of samples encompassed. If there's
@@ -58,14 +58,14 @@ image::pv_marker_deltas.png[]
 This works on the cursor, too.
 
 Speaking of which - if you want to place or move the cursor ranges quickly, you
-can also press '1' and '2' on your keyboard to attach either side to your mouse
-cursor. They will stay put when you either press Esc or click with the left
+can also press kbd:[1] and kbd:[2] on your keyboard to attach either side to your mouse
+cursor. They will stay put when you either press kbd:[Esc] or click with the left
 mouse button. This also works when the cursor isn't even showing, so using this
 method allows you to place the cursor quickly without having to enable it first.
 
 [NOTE]
 For timing comparison purposes, you can also enable a vertical marker line that
-follows your mouse cursor: _Settings_ -> _Views_ -> _Highlight mouse cursor_
+follows your mouse cursor: menu:Settings[Views > Highlight mouse cursor].
 
 [NOTE]
 There is also a special kind of marker that appears for each time the data
@@ -97,7 +97,7 @@ This way, you can give signals long, expressive names without clogging up the
 view area.
 
 ==== Multiple Views
-You can create multiple views by clicking on the "New View" button on the very
+You can create multiple views by clicking on the btn:[New View] button on the very
 left of the toolbar. These can be rearranged as you wish.
 
 ==== Session Saving/Restoring
@@ -112,4 +112,4 @@ restored. These metadata files have the ending `.pvs` (PulseView Setup) and can
 be edited in any text editor if you wish to change something manually.
 
 Additionally, you can save or load this metadata at any time using the
-save/load buttons.
+btn:[Save] / btn:[Load] buttons.

@@ -5,7 +5,7 @@ Working with PulseView follows a pattern:
 image::pv_nodevice.png[]
 <1> Open a new session
 <2> Select the device you want to work with:
-<3> Click "Run" to acquire signal data (waiting for a trigger first if you set one)
+<3> Click btn:[Run] to acquire signal data (waiting for a trigger first if you set one)
 
 When you start PulseView and no sessions are restored from the last time you used it, it will
 come up with a session that has the demo device selected. That way, you can get to know the
@@ -57,7 +57,7 @@ device every time you want to use it and then having to scan for it, you can als
 command line parameter `-d` to have PulseView scan for it on startup.
 
 You may then change the device configuration and/or start the data acquisition by clicking
-the "Run" button on the top left.
+the btn:[Run] button on the top left.
 
 When you run the acquisition, you'll notice that the newly captured data goes off-screen.
 This is to improve performance and let PulseView acquire the data without bogging down your
@@ -114,10 +114,10 @@ that the only triggers available to you are:
 Once you choose a trigger, the icon for the type you chose becomes visible on the right side of the
 trace view.
 
-When you click "Run" with a trigger configured, PulseView will wait for the device to trigger and
+When you click btn:[Run] with a trigger configured, PulseView will wait for the device to trigger and
 send data before it can show anything. There is currently no frame limit, so if the device driver
 supports it, PulseView will continue arming the trigger and collecting data until you either click
-"Stop" or it runs out of memory.
+btn:[Stop] or it runs out of memory.
 
 === Channel Groups
 
@@ -128,6 +128,6 @@ dark gray bar on the left. If there is none, no channels are grouped.
 Currently, the grouping is only done for your convenience and there's no direct functional impact.
 This means that you're free to ungroup and group channels as you please. To do so, right-click
 on the dark gray bar and select "Ungroup".
-If you want to create a new group, select the signals you want to group by holding down CTRL
+If you want to create a new group, select the signals you want to group by holding down kbd:[Ctrl]
 and clicking on the signal labels. Once you have selected the ones you want to be grouped,
 right-click on one of the labels you selected and choose "Group".

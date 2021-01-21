@@ -8,6 +8,7 @@ unreleased development snapshot, dated 2020-02-29
 :toclevels: 2
 :icons: font
 :figure-caption: Image
+:experimental:
 
 ifdef::ebook-format[:leveloffset: -1]
 
